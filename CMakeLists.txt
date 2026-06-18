@@ -167,6 +167,7 @@ if(APPLE)
         src/app/src/rocprofvis_imgui_vulkan.cpp
         src/app/src/rocprofvis_imgui_opengl.cpp
         src/app/src/main.cpp
+        src/app/src/app_tests.cpp
         src/app/src/glfw_util.cpp
         src/app/src/rocprofvis_cli_parser.cpp
         src/app/src/rocprofvis_platform_helpers_macos.mm
@@ -177,6 +178,7 @@ else()
         src/app/src/rocprofvis_imgui_vulkan.cpp
         src/app/src/rocprofvis_imgui_opengl.cpp
         src/app/src/main.cpp
+        src/app/src/app_tests.cpp
         src/app/src/glfw_util.cpp
         src/app/src/rocprofvis_cli_parser.cpp
         ${VIEW_FILES})
